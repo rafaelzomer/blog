@@ -1,0 +1,35 @@
+baseurl = "https://rafaelzomer.github.io/blog/"
+copyright = "Todos os direitos reservados"
+disqusshortname = "rafaelzomer"
+languagecode = "pt-BR"
+paginate = 5
+pluralizelisttitles = false
+theme = "hugo-theme-casper"
+title = "rafaelzomer"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/"
+weight = -120
+[[menu.main]]
+name = "Github repos"
+pre = "<h3>Follow me</h3>"
+url = "https://github.com/rafaelzomer"
+weight = 100
+
+[params]
+author = "Rafael Zomer Antunes"
+authorlocation = "Brazil"
+authorbio = "Fullstack Developer"
+cover = "images/cover.jpg"
+description = "Tutoriais sobre programação"
+githubName = "rafaelzomer"
+googleAnalyticsUserID = "UA-47115458-4"
+hideHUGOSupport = false
+logo = "images/logo.png"
+[permalinks]
+post = "/:slug/"
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
